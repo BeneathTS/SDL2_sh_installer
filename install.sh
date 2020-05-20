@@ -50,6 +50,5 @@ sh SDL2_mixer-2.0.4/configure && make && make install
 #Delete arch files
 rm -f $lib_folder/$sdl2_arch_name
 rm -f $lib_folder/$sdl_image_arch_name
-rm -f $lib_folder/$sdl_ttf_arch_name
 rm -f $lib_folder/$sdl_mixer_arch_name
-rm -r .deps && rm -r .libs
+#rm -f $lib_folder/$sdl_ttf_arch_name
